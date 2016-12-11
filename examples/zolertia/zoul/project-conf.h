@@ -50,6 +50,9 @@
 #define MOTION_SENSOR_PIN        5
 #define MOTION_SENSOR_VECTOR     GPIO_A_IRQn
 
+/* Use the following I2C address for the BME280 sensor (from MikroElektronika) */
+#define BME280_CONF_ADDR         0x76
+
 #endif /* PROJECT_CONF_H_ */
 
 /** @} */
